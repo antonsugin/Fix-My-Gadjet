@@ -30,6 +30,10 @@ nav ul {
   flex-wrap: wrap;
   gap: 3rem;
 }
+nav a {
+  color: inherit;
+  text-decoration: inherit;
+}
 nav h3 {
   font-size: 3rem;
   letter-spacing: 2px;
