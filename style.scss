@@ -20,7 +20,35 @@ html {
 
 nav {
   //background-image: url("photos/gradient-mobile-store-logo-template/7946699.jpg");
+  font-family: $fonts;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  & ul {
+    font-weight: 400;
+    font-size: 1.5rem;
+    letter-spacing: $spacing;
+    list-style: none;
+    //display: flex;
+    //align-items: center;
+    //justify-content: space-between;
+    //flex-direction: row;
+    //flex-wrap: wrap;
+
+    
+    }
+
+  & h3 {
+    font-size: 3rem;
+    letter-spacing: $spacing;
+    text-align: center;
+  }
 }
+
+
+
+
 
 
 
