@@ -24,19 +24,16 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  margin-top: 2rem;
 
   & ul {
     font-weight: 400;
     font-size: 1.5rem;
     letter-spacing: $spacing;
     list-style: none;
-    //display: flex;
-    //align-items: center;
-    //justify-content: space-between;
-    //flex-direction: row;
-    //flex-wrap: wrap;
-
-    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
     }
 
   & h3 {
@@ -45,6 +42,7 @@ nav {
     text-align: center;
   }
 }
+
 
 
 

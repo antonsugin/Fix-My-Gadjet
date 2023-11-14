@@ -19,12 +19,16 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  margin-top: 2rem;
 }
 nav ul {
   font-weight: 400;
   font-size: 1.5rem;
   letter-spacing: 2px;
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
 }
 nav h3 {
   font-size: 3rem;
