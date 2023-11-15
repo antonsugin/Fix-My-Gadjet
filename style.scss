@@ -24,7 +24,8 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin-top: 2rem;
+  padding-top: 2rem;
+  color: $primary-color;
 
   & ul {
     font-weight: 400;
@@ -49,9 +50,39 @@ nav {
   }
 }
 
+header {
+  //background: url("photos/photo4/joel-rohland-MCL2xxjZJvs-unsplash (2).jpg");
+  //background-image: url("photos/photo3/nicolas-messifet-_fTihc8wRTw-unsplash\ \(1\).jpg");
+  //background-image: url("photos/backgroundPhoto/insung-yoon-dRUqU4RpeOE-unsplash\ \(2\).jpg");
+  //background-image: url("photos/backgroundPhoto/heliberto-arias-raNIrcd39jY-unsplash\ \(2\).jpg");
+  //min-width: 1280px;
+  //width: 100vw;
+  height: 50vh;
+  //background-position: center;
+  //background-repeat: no-repeat;
+  //background-size: cover;
+  //background-attachment: fixed;
+  //margin: auto;
+  //position: relative;
+  //overflow: hidden;
+  //background-size: fit;
+  //background-size: contain;
+  //overflow: scroll;
+  //position: relative;
+
+  & img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    //position: absolute;
+    //top: -15px;
+    //bottom: 0;
+  }
+}
 
 
 
+//<img src="photos/photo4/joel-rohland-MCL2xxjZJvs-unsplash (2).jpg" alt="background image broken cellphone">
 
 
 

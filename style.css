@@ -19,7 +19,8 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin-top: 2rem;
+  padding-top: 2rem;
+  color: white;
 }
 nav ul {
   font-weight: 400;
@@ -38,4 +39,14 @@ nav h3 {
   font-size: 3rem;
   letter-spacing: 2px;
   text-align: center;
+}
+
+header {
+  height: 50vh;
+}
+header img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=style.css.map */
