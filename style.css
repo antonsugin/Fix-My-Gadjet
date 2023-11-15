@@ -23,8 +23,8 @@ nav {
   color: white;
 }
 nav ul {
-  font-weight: 400;
-  font-size: 1.5rem;
+  font-weight: 600;
+  font-size: 1.7rem;
   letter-spacing: 2px;
   list-style: none;
   display: flex;
@@ -36,17 +36,17 @@ nav a {
   text-decoration: inherit;
 }
 nav h3 {
-  font-size: 3rem;
+  font-weight: 700;
+  font-size: 5rem;
   letter-spacing: 2px;
   text-align: center;
 }
 
 header {
+  background: url("photos/photo4/joel-rohland-MCL2xxjZJvs-unsplash (2).jpg");
+  min-width: 1280px;
   height: 50vh;
-}
-header img {
-  height: 100%;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }/*# sourceMappingURL=style.css.map */

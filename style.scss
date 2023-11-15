@@ -28,8 +28,8 @@ nav {
   color: $primary-color;
 
   & ul {
-    font-weight: 400;
-    font-size: 1.5rem;
+    font-weight: 600;
+    font-size: 1.7rem;
     letter-spacing: $spacing;
     list-style: none;
     display: flex;
@@ -44,40 +44,25 @@ nav {
   }
 
   & h3 {
-    font-size: 3rem;
+    font-weight: 700;
+    font-size: 5rem;
     letter-spacing: $spacing;
     text-align: center;
   }
 }
 
 header {
-  //background: url("photos/photo4/joel-rohland-MCL2xxjZJvs-unsplash (2).jpg");
+  background: url("photos/photo4/joel-rohland-MCL2xxjZJvs-unsplash (2).jpg");
   //background-image: url("photos/photo3/nicolas-messifet-_fTihc8wRTw-unsplash\ \(1\).jpg");
   //background-image: url("photos/backgroundPhoto/insung-yoon-dRUqU4RpeOE-unsplash\ \(2\).jpg");
   //background-image: url("photos/backgroundPhoto/heliberto-arias-raNIrcd39jY-unsplash\ \(2\).jpg");
-  //min-width: 1280px;
+  min-width: 1280px;
   //width: 100vw;
   height: 50vh;
-  //background-position: center;
-  //background-repeat: no-repeat;
-  //background-size: cover;
-  //background-attachment: fixed;
-  //margin: auto;
-  //position: relative;
-  //overflow: hidden;
-  //background-size: fit;
-  //background-size: contain;
-  //overflow: scroll;
-  //position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-  & img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    //position: absolute;
-    //top: -15px;
-    //bottom: 0;
-  }
 }
 
 
