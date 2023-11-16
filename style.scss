@@ -17,7 +17,10 @@ html {
     background-color: $primary-color;
     
 }
-
+.logo__wrapper {
+  background-color: $logo-color;
+  border-radius: 50%;
+}
 nav {
   //background-image: url("photos/gradient-mobile-store-logo-template/7946699.jpg");
   font-family: $fonts;
@@ -25,7 +28,14 @@ nav {
   align-items: center;
   justify-content: space-evenly;
   padding-top: 2rem;
-  color: $primary-color;
+  color: $secondary-color;
+
+  & .logo {
+    width: 150px;
+    height: 150px;
+    -webkit-filter: brightness(0);
+    filter: brightness(0);
+  }
 
   & ul {
     font-weight: 600;
@@ -35,6 +45,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     gap: 3rem;
+    color: $primary-color;
   }
 
   & a {
@@ -51,6 +62,15 @@ nav {
   }
 }
 
+.screwdriver__logo {
+  width: 100px;
+  height: 50px;
+}
+
+.slogan__wrapper {
+  display: flex;
+}
+
 header {
   background: url("photos/photo4/joel-rohland-MCL2xxjZJvs-unsplash (2).jpg");
   //background-image: url("photos/photo3/nicolas-messifet-_fTihc8wRTw-unsplash\ \(1\).jpg");
@@ -63,7 +83,10 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 
+  
+
 }
+
 
 
 
