@@ -14,12 +14,15 @@ body {
   background-color: white;
 }
 
-.logo__wrapper {
-  background-color: #FFEBB7;
-  border-radius: 50%;
+header {
+  background: url("photos/photo4/joel-rohland-MCL2xxjZJvs-unsplash (2).jpg");
+  min-width: 1280px;
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
-nav {
+header nav {
   font-family: "Montserrat", sans-serif;
   display: flex;
   align-items: center;
@@ -27,12 +30,16 @@ nav {
   padding-top: 2rem;
   color: #FFEBB7;
 }
-nav .logo {
+header nav .logo__wrapper {
+  background-color: #FFEBB7;
+  border-radius: 50%;
+}
+header nav .logo__wrapper .logo {
   width: 150px;
   height: 150px;
   filter: brightness(0);
 }
-nav ul {
+header nav ul {
   font-weight: 600;
   font-size: 1.7rem;
   letter-spacing: 2px;
@@ -42,31 +49,13 @@ nav ul {
   gap: 3rem;
   color: white;
 }
-nav a {
+header nav a {
   color: inherit;
   text-decoration: inherit;
 }
-nav h3 {
+header nav h3 {
   font-weight: 700;
   font-size: 5rem;
   letter-spacing: 2px;
   text-align: center;
-}
-
-.screwdriver__logo {
-  width: 100px;
-  height: 50px;
-}
-
-.slogan__wrapper {
-  display: flex;
-}
-
-header {
-  background: url("photos/photo4/joel-rohland-MCL2xxjZJvs-unsplash (2).jpg");
-  min-width: 1280px;
-  height: 50vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }/*# sourceMappingURL=style.css.map */
